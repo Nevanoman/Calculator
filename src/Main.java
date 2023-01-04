@@ -30,6 +30,7 @@ public class Main {
             case "/" -> firstNum / secondNum;
             default -> throw new IllegalArgumentException(array[1] + " неверный знак.");
         };
+
         if (input.contains("I") || input.contains("V") || input.contains("X")) {
             return Converter.arabicToRoman(result);
         }
