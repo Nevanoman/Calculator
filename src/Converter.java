@@ -26,7 +26,7 @@ public class Converter {
 
     public static String arabicToRoman(int number) {
         if ((number <= 0) || (number > 100)) {
-            throw new IllegalArgumentException(number + " неверный диапазон чисел");
+            throw new IllegalArgumentException(number + " неверный диапазон чисел.");
         }
         List<RomanNumeral> romanNumerals = RomanNumeral.getReverseSortedValue();
 

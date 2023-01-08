@@ -21,7 +21,7 @@ public class Main {
         }
 
         if ((firstNum < 1 || firstNum > 10) || (secondNum < 1 || secondNum > 10)) {
-            throw new IllegalArgumentException("Неверная операция");
+            throw new IllegalArgumentException("Неверная операция.");
         }
         int result = switch (array[1]) {
             case "+" -> firstNum + secondNum;

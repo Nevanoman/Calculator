@@ -18,7 +18,7 @@ enum RomanNumeral {
     public static List<RomanNumeral> getReverseSortedValue() {
         return Arrays.stream(values())
                 .sorted(Comparator.comparing((RomanNumeral e) -> e.value).reversed())
-        .collect(Collectors.toList());
+                .collect(Collectors.toList());
 
     }
 }
